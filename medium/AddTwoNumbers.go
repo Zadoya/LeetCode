@@ -1,3 +1,5 @@
+// Условие задачи - https://leetcode.com/problems/add-two-numbers/description/
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
