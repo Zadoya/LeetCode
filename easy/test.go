@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"testing"
+	"unsafe"
 )
 func KeySprintf(subjects, kinds []int) bool {
 	orderIndex := make(map[string]int64)
@@ -57,7 +58,7 @@ func buzz(dp map[int64]struct{}) (map[int64]struct{}, error) {
 
 	return dp, nil
 }
-
+/*
 func main() {
 	dp := make(map[int64]struct{})
 	dp[10] = struct{}{}
@@ -68,4 +69,4 @@ func main() {
 		return
 	}
 	fmt.Println(dp)
-}
+}*/

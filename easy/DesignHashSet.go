@@ -1,5 +1,7 @@
 // условие задачи - https://leetcode.com/problems/design-hashset/description/
 
+package main
+
 type MyHashSet struct {
     payload [125001] byte
 }

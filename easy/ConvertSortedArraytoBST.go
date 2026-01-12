@@ -1,5 +1,7 @@
 // условие задачи - https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/
 
+package main
+
 type TreeNode struct {
 	Val int
 	Left *TreeNode

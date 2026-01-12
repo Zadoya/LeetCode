@@ -2,6 +2,9 @@
 
 // Time  - O(n)
 // Space - O(1)
+
+package main
+
 func maxArea(height []int) int {
 	maxSquare := 0
 	left := 0

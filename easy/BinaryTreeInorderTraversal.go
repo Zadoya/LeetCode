@@ -1,5 +1,7 @@
 // условие задачи - https://leetcode.com/problems/binary-tree-inorder-traversal/
 
+package main
+
 type TreeNode struct {
 	Val int
 	Left *TreeNode

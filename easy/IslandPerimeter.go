@@ -3,6 +3,7 @@
 // можно обойтись подсчетом только верхнего и левого соседа(нижнего и правого), 
 // умножив результат на 2
 
+package main
 
 func checkNeighbour(grid *[][]int, i, j int) int {
 	counter := 0
